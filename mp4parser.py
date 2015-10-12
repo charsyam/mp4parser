@@ -1,6 +1,3 @@
-
-drser.py
- 
 import sys
 import struct
  
@@ -406,8 +403,5 @@ if __name__ == "__main__":
  
     track = mp4.tracks[0]
 #   print track.chunks
-#   track.chunks[0].to_annexb("d:\\chunk0-2", track.spss, track.ppss)
-#   track.chunks[1].to_annexb("d:\\chunk1", track.spss, track.ppss, size)ict_ht_initial_size
-dict_ht_initial_size
-dict_ht_initial_size
-dict_ht_initial_size
+    track.chunks[0].to_annexb("/Users/charsyam/chunk0-0", track.spss, track.ppss)
+#   track.chunks[1].to_annexb("d:\\chunk1", track.spss, track.ppss, size)
